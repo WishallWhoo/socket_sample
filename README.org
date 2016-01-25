@@ -3,5 +3,9 @@ sample code for using a socket
 ** sockt_eval
    evaluation for socket transport latency
    1. Set =EVAL_NAM= and =SERVER_IP= in =socke_client.cpp=
-   2. Run socket_client in a remote PC
-   3. Sun socket_server in a local PC, then =transport_time_socket.txt= is generated.
+   2. Run socket_server in a remote PC
+<<<<<<< HEAD
+   3. Run socket_client in a local PC, then =transport_time_socket.txt= is generated.
+=======
+   3. Sun socket_client in a local PC, then =transport_time_socket.txt= is generated.
+>>>>>>> origin/master
